@@ -64,16 +64,20 @@ p {
 }
 
 .top-left-image {
-    position: absolute; 
-    top: 0; 
-    left: 0; 
-    margin: 10px; 
+    rotate: 45deg;
+    margin: 0px; 
 
     transition: transform 0.3s ease;
 }
 
-.top-left-image:hover{
-    transform: rotate(45deg)
+/* .top-left-image:hover{
+    transform: rotate(-45deg)
+} */
+
+.possition-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    translate: 50% 50%;
+
 }
-
-
